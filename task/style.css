@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    color: #2364aa;
+}
+
+input {
+    padding: 6px;
+    margin: 4px;
+}
+
+button {
+    padding: 8px 15px;
+    margin: 4px;
+    cursor: pointer;
+}
+
+#summary {
+    margin: 15px 0;
+    line-height: 1.8;
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tech Fest 2026 Registration</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1>Tech Fest 2026 Registration</h1>
+
+    <label for="studentName">Student Name:</label>
+    <input type="text" id="studentName" >
+
+    <br><br>
+
+    <label for="event">Event Name:</label>
+    <input type="text" id="event" >
+    <button type="button" onclick="addEvent()">Add Event</button>
+
+    <h3>Added Events</h3>
+    <ul id="eventList"></ul>
+
+    <button type="button" onclick="confirmRegistration()">Confirm Registration</button>
+</body>
+</html>
